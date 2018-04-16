@@ -15,7 +15,7 @@ Angular 4+ Directive adding pointer cursor for elements using `(click)` directiv
     class AppModule {}
     ```
 
-## Usage
+## Usage ([click here for a demo](https://stackblitz.com/edit/angular-gitter-qnta72?file=app%2Fapp.component.ts))
 ```typescript
 @Component({
   selector: 'app',
