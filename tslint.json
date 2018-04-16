@@ -1,0 +1,20 @@
+{
+  "extends": "./node_modules/tslint-angular/tslint.json",
+  "rules": {
+    "curly": [true, "ignore-same-line"],
+    "ban": [true, "fit", "fdescribe"],
+    "max-line-length": [true, {
+      "limit": 120,
+      "ignore-pattern": ""
+    }],
+    "no-console": {
+      "options": ["log", "time", "timeEnd", "trace", "assert", "clear",
+        "count", "debug", "profile", "profileEnd", "select", "table", "info"],
+      "severity": "warning"
+    },
+    "no-empty-interface": false,
+    "no-inferrable-types": false,
+    "no-input-rename": false,
+    "no-output-rename": false
+  }
+}

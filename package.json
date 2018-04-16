@@ -1,0 +1,50 @@
+{
+  "name": "angular-clickable-click",
+  "version": "0.1.0",
+  "description": "Angular 4+ Directive adding pointer cursor for elements using (click) directive",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "build": "npm run lint && rimraf lib && ngc",
+    "prepare": "npm run lint && npm run build",
+    "lint": "tslint --project tsconfig.json src/**/*.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielKucal/angular-clickable-click.git"
+  },
+  "keywords": [
+    "angular",
+    "angular2",
+    "angular4",
+    "click",
+    "clickable",
+    "event",
+    "style",
+    "directive"
+  ],
+  "author": "Daniel Kucal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DanielKucal/angular-clickable-click/issues"
+  },
+  "homepage": "https://github.com/DanielKucal/angular-clickable-click#readme",
+  "peerDependencies": {
+    "@angular/common": ">=4.0.0",
+    "@angular/core": ">=4.0.0"
+  },
+  "devDependencies": {
+    "@angular/common": "^4.4.6",
+    "@angular/compiler": "^4.4.6",
+    "@angular/compiler-cli": "^4.4.6",
+    "@angular/core": "^4.4.6",
+    "@angular/platform-browser": "^4.4.6",
+    "rimraf": "^2.6.2",
+    "rxjs": "^5.5.2",
+    "tslint": "^5.8.0",
+    "tslint-angular": "^1.1.1",
+    "typescript": "^2.4.2",
+    "zone.js": "^0.8.18"
+  }
+}
