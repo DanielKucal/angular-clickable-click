@@ -1,6 +1,6 @@
 import { Directive, HostBinding, Input, OnChanges } from '@angular/core';
 
-@Directive({selector: '[click]'})
+@Directive({selector: '[click],[disabled]'})
 export class ClickDirective implements OnChanges {
     @Input('disabled') disabled: boolean = false;
     @HostBinding('style.cursor') cursor: string = 'pointer';
