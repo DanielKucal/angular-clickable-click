@@ -1,5 +1,6 @@
-# Clickable `(click)` for Angular 4+
-Angular 4+ Directive adding pointer cursor for elements using `(click)` directive.
+# Clickable `(click)` for Angular 2+
+Angular 2+ Directive adding pointer cursor for elements using `(click)` directive.
+Respects `[disabled]` input.
 
 ## Installation
 1. Get it from `npm i angular-clickable-click --save`
